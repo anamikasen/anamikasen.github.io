@@ -11,6 +11,7 @@
 		$wrapper = $('#wrapper'),
 		$header = $('#header'),
 		$footer = $('#footer'),
+		$date = $('#date'),
 		$main = $('#main'),
 		$main_articles = $main.children('article');
 
