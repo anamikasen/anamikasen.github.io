@@ -174,6 +174,7 @@
 								// Show main, article.
 									$main.show();
 									$article.show();
+									$date.show();
 
 								// Activate article.
 									setTimeout(function() {
