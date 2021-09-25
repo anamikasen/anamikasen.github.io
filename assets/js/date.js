@@ -1,4 +1,4 @@
-const desiredRepo = "seachel.github.io";
+const desiredRepo = "anamikasen.github.io";
 const dateTagClass = ".date";
 
 var xhttp = new XMLHttpRequest();
@@ -20,5 +20,5 @@ xhttp.onreadystatechange = function()
     });
   }
 };
-xhttp.open("GET", "https://api.github.com/users/seachel/repos", true);
+xhttp.open("GET", "https://api.github.com/users/anamikasen/repos", true);
 xhttp.send();
