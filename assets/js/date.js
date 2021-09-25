@@ -14,8 +14,9 @@ xhttp.onreadystatechange = function()
         var lastUpdated = new Date(repo.updated_at);
         var day = lastUpdated.getUTCDate();
         var month = lastUpdated.getUTCMonth();
+        month += 1;
         var year = lastUpdated.getUTCFullYear();
-        $(dateTagClass).text(`Last updated: ${year}-${month+1}-${day}`);
+        $(dateTagClass).text(`Last updated: ${year}-${month}-${day}`);
       }
     });
   }
