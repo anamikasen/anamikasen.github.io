@@ -341,37 +341,11 @@
 
 
 					<!-- Here is the "#10ksteps" card. -->
-					<div class="overlay-content"> //Content container needed for CSS Styling
 					<article id="10ksteps">
 						<!-- This is where the content that appears on page load exists -->
 						<!-- <h2 class="major">My Likes!</h2> -->
-							<div id="Reloader"> 
-									<!-- //iFrame will be reloaded into this div -->
-									<iframe id="iframeid" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRK3_ueXOfiw00pWbt6Fs88lLC9uDCO8VjWQgsbbmqaGJ2Yz6LTEpgtEPtemm74T_hLzBsRmbAML2y6/pubhtml?gid=855393039&amp;single=true&amp;widget=true&amp;headers=false" allowfullscreen></iframe>
-							</div>
-
-							<!-- //Script to reload the iframe when the page loads -->
-							<script>
-									function aboutReload() { 
-											$("#Reloader").html('<iframe id="Reloader" height="355px" width="830px" scrolling="no" frameborder="0" src="about.html"></iframe>');
-									}
-							</script>
-							
-							<br>
-							<input type="button" 
-           				id="btn" 
-           				value="Refresh" 
-									style="margin:0px auto; display:block;"/>
-  
-    					<script>
-        				function reload() {
-            		document.getElementById('iframeid').src += '';
-        				}
-        				btn.onclick = reload;
-    					</script>
-				
-					</div>
-						<!-- <div class="iframe-container">
+						
+						<div class="iframe-container">
 						<iframe id="iframeid" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRK3_ueXOfiw00pWbt6Fs88lLC9uDCO8VjWQgsbbmqaGJ2Yz6LTEpgtEPtemm74T_hLzBsRmbAML2y6/pubhtml?gid=855393039&amp;single=true&amp;widget=true&amp;headers=false" allowfullscreen></iframe>
 						</div>
 						<br>
@@ -388,7 +362,7 @@
     				</script>
 					</article>
 
-					</div> -->
+					</div>
 
 					<!-- This is the footer that appears at the bottom of the page -->
 					<footer id="footer">
